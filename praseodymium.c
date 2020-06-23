@@ -21,13 +21,13 @@
 
 int init_module(void)
 {
-	printk("Heavy metal praseodymium loaded!\n");
+	pr_info("Heavy metal praseodymium loaded!\n");
 	return 0;
 }
 
 void cleanup_module(void)
 {
-	printk("Huh what? Why?!?\n");
+	pr_info("Huh what? Why?!?\n");
 }
 
 MODULE_LICENSE("GPL");
