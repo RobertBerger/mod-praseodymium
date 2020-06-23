@@ -19,6 +19,10 @@
 
 #include <linux/module.h>
 
+static unsigned int metal_level = 666;
+
+module_param(metal_level, uint, 0644);
+
 int init_module(void)
 {
 	pr_info("Heavy metal praseodymium loaded!\n");
