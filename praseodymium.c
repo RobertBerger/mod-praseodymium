@@ -21,13 +21,13 @@
 
 int init_module(void)
 {
-	printk("Hello World!\n");
+	printk("Heavy metal praseodymium loaded!\n");
 	return 0;
 }
 
 void cleanup_module(void)
 {
-	printk("Goodbye Cruel World!\n");
+	printk("Huh what? Why?!?\n");
 }
 
 MODULE_LICENSE("GPL");
